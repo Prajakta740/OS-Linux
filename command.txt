@@ -1,0 +1,130 @@
+prajakta@student-ZBOX-ECM73070C-53060C:~$ pwd
+/home/prajakta
+prajakta@student-ZBOX-ECM73070C-53060C:~$ cd Desktop
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ less prajakta
+prajakta is a directory
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ echo hello
+hello
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ man echo
+ECHO(1)                                                            User Commands                                                           ECHO(1)
+
+NAME
+       echo - display a line of text
+
+SYNOPSIS
+       echo [SHORT-OPTION]... [STRING]...
+       echo LONG-OPTION
+
+DESCRIPTION
+       Echo the STRING(s) to standard output.
+
+       -n     do not output the trailing newline
+
+       -e     enable interpretation of backslash escapes
+
+       -E     disable interpretation of backslash escapes (default)
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       If -e is in effect, the following sequences are recognized:
+
+       \\     backslash
+
+       \a     alert (BEL)
+
+       \b     backspace
+
+       \c     produce no further output
+
+       \e     escape
+
+       \f     form feed
+
+       \n     new line
+
+       \r     carriage return
+       
+       \t     horizontal tab
+
+       \v     vertical tab
+
+       \0NNN  byte with octal value NNN (1 to 3 digits)
+
+       \xHH   byte with hexadecimal value HH (1 to 2 digits)
+
+       NOTE: your shell may have its own version of echo, which usually supersedes the version described here.  Please refer to your shell's docu‐
+       mentation for details about the options it supports.
+
+AUTHOR
+       Written by Brian Fox and Chet Ramey.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report echo translation bugs to <https://translationproject.org/team/>
+
+COPYRIGHT
+       Copyright © 2018 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO
+       Full documentation at: <https://www.gnu.org/software/coreutils/echo>
+       or available locally via: info '(coreutils) echo invocation'
+
+GNU coreutils 8.30                                                September 2019   
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ clear
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ cal
+    October 2023      
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30 31              
+                      
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ cal 12 2003
+   December 2003      
+Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 15 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29 30 31           
+                      
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ date
+Wednesday 25 October 2023 01:09:07 PM IST
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ who
+student  :0           2023-10-25 12:58 (:0)
+prajakta :1           2023-10-25 13:03 (:1)
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ whoami
+prajakta
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ wc /home/prajakta/Desktop/prajakta/divisible7.sh
+ 13  62 284 /home/prajakta/Desktop/prajakta/divisible7.sh
+ prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ gedit prajuu
+ prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop/prajakta$ mkdir shita
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop/prajakta$ ls
+shita  OSPr_Armstrong.sh  OSPr_DivisibilityBy7.sh  OSPr_Palindrome.sh
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop/prajakta$ rmdir shita
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ more prajakta
+*** prajakta:directory ***
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop/prajakta$ kill -l
+ 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+ 6) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+11) SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+16) SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+21) SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+31) SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+38) SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+43) SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+48) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+63) SIGRTMAX-1	64) SIGRTMAX	
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop/prajakta$ rm OSPr_Palindrome.sh
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop/prajakta$ sort
+prajakta@student-ZBOX-ECM73070C-53060C:~/Desktop$ ps -e
+
+

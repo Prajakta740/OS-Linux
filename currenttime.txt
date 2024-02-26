@@ -1,0 +1,15 @@
+#!/bin/bash
+T=$(date +"%H")
+echo "current time is $T"
+if [ $T -gt 6 -a $T -le 12 ]
+then
+echo "Good Morning"
+elif [ $T -gt 12 -a $T -le 16 ]
+then
+echo "Good Afternoomn"
+elif [ $T -gt 16 -a $T -le 22 ]
+then
+echo "Good Evining"
+else
+echo "Good Night"
+fi

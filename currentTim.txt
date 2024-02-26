@@ -1,0 +1,7 @@
+prajakta@student-ZBOX-ECM73070C-53060C:~$ sh currentT.sh
+good morning
+prajakta@student-ZBOX-ECM73070C-53060C:~$ 
+
+
+
+
